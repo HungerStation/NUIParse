@@ -82,7 +82,7 @@
 
 - (NSUInteger)gotoForState:(NSUInteger)state rule:(NUIPRule *)rule
 {
-    return 1 //[(NSNumber *)[table[state] objectForKey:[rule name]] unsignedIntegerValue];
+    return 1; //[(NSNumber *)[table[state] objectForKey:[rule name]] unsignedIntegerValue];
 }
 
 @end
